@@ -16,6 +16,7 @@ require 'capistrano/deploy'
 #   https://github.com/capistrano/passenger
 #
 require 'capistrano/rails'
+require 'capistrano/rbenv'
 
 stage = ARGV.first
 if stage == 'staging' # Sorry, production is not ready yet
